@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_3oFCgMR7EfCep9tV7lLhQA" name="Archie">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_3tj_cMR7EfCep9tV7lLhQA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Component" xmi:id="_RzV1gMR8EfCep9tV7lLhQA" name="Create Union"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_U4JDQMR8EfCep9tV7lLhQA" name="Form GUI"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_LJGwsMnjEfCJ0Z1FYZQrag" name="Registration Data Check Service"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_AXXIkMnnEfCJ0Z1FYZQrag" name="SU Website">
+    <packagedElement xmi:type="uml:Component" xmi:id="_zVFmEM69EfC7tOsXlqDzHQ" name="Form Client">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_Kq0EcM7AEfC7tOsXlqDzHQ" client="_zVFmEM69EfC7tOsXlqDzHQ" supplier="_H5HY4M7AEfC7tOsXlqDzHQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_N9kOoM7AEfC7tOsXlqDzHQ" name="SU Login"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_v8QQwM63EfC7tOsXlqDzHQ" name="USU Officer Subsystem">
+    <packagedElement xmi:type="uml:Component" xmi:id="_lvdv0M67EfC7tOsXlqDzHQ" name="Union Display Service">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_xY04QM6-EfC7tOsXlqDzHQ" client="_lvdv0M67EfC7tOsXlqDzHQ" supplier="_LJGwsMnjEfCJ0Z1FYZQrag"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_yDAdsM6-EfC7tOsXlqDzHQ" client="_lvdv0M67EfC7tOsXlqDzHQ" supplier="_b2D3MM66EfC7tOsXlqDzHQ"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_y1QaAM6-EfC7tOsXlqDzHQ" client="_lvdv0M67EfC7tOsXlqDzHQ" supplier="_ZQ8PEM66EfC7tOsXlqDzHQ"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_zh1MIM6-EfC7tOsXlqDzHQ" client="_lvdv0M67EfC7tOsXlqDzHQ" supplier="_RzV1gMR8EfCep9tV7lLhQA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_B1rhsM6-EfC7tOsXlqDzHQ" name="USU Login">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_sg6HEM6-EfC7tOsXlqDzHQ" client="_B1rhsM6-EfC7tOsXlqDzHQ" supplier="_EhuRMM6-EfC7tOsXlqDzHQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_H5HY4M7AEfC7tOsXlqDzHQ" name="Union Approval"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_fThHcM64EfC7tOsXlqDzHQ" name="Database">
+    <packagedElement xmi:type="uml:Component" xmi:id="_ZQ8PEM66EfC7tOsXlqDzHQ" name="Delete Union"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_a2JSUM66EfC7tOsXlqDzHQ" name="Class2"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_b2D3MM66EfC7tOsXlqDzHQ" name="Modify Union"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_EhuRMM6-EfC7tOsXlqDzHQ" name="Check Login"/>
+  </packagedElement>
+</uml:Model>
